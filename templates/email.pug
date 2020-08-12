@@ -1,0 +1,10 @@
+doctype html
+head
+  title Race results
+h4 Result update!
+#container.col
+  h3 Notice for user - #{oldWinner.username}
+  p Dear #{oldWinner.username}, your result is #{oldWinner.time} seconds
+  p #{newWinner.username} result is #{newWinner.time} seconds
+  p You are #{oldWinner.time - newWinner.time} seconds ahead
+  p Good luck with your next race!
